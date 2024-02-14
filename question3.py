@@ -23,7 +23,6 @@ def pascal_triangle(n):
         last_line = current_line
 
 
-
 num_lines = input('please enter number of lines(must be positive integer): ')
 while (not num_lines.isnumeric()) or (int(num_lines) == 0):
     num_lines = input("Invalid input! please enter a positive integer: ")
