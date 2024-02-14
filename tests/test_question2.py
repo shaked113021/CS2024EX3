@@ -4,7 +4,7 @@ import io
 import question2
 
 
-class MyTestCase(unittest.TestCase):
+class Question2Test(unittest.TestCase):
 
     @patch('sys.stdout', new_callable=io.StringIO)
     def test_GivenExample(self, fake_out: io.StringIO):
